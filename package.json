@@ -1,5 +1,5 @@
 {
-  "type":"module",
+  "type": "commonjs",
   "dependencies": {
     "express": "^4.18.1",
     "require": "^2.4.20"
@@ -7,5 +7,22 @@
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^18.0.6"
-  }
+  },
+  "name": "board-games_back",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Games-More/Board-Games_Back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Games-More/Board-Games_Back/issues"
+  },
+  "homepage": "https://github.com/Games-More/Board-Games_Back#readme"
 }
